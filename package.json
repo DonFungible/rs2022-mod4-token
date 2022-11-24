@@ -1,0 +1,29 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-solhint": "^2.0.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-rc.1"
+  },
+  "dependencies": {
+    "@nomiclabs/eslint-plugin-hardhat-internal-rules": "^1.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solhint-plugin-prettier": "^0.0.5",
+    "solidity-coverage": "^0.8.2"
+  },
+  "scripts": {
+    "lintjs": "npx eslint '**/*.js'",
+    "lintjs-fix": "npx eslint '**/*.js --fix"
+  }
+}
