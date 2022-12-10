@@ -7,6 +7,7 @@
 - Solhint
 - Eslint
 - Prettier
+- dotenv
 
 ## Commands
 
